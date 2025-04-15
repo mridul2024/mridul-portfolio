@@ -24,6 +24,7 @@ Version      : 1.0
 * 14.FOOTER CSS STYLE
 * 15.PRELOADER & BOUNCE CCS STYLE
 * 16.BLOG CSS STYLE
+* 17.GALLERY
 * ----------------------------------------------------------------------------------------
 */
 
@@ -3419,3 +3420,16 @@ to {
 transform: translate(calc(-50% - 0.5rem));
 }
 }
+
+
+/* GALLERY START HERE */
+
+/* youtube video */
+.yt-videos{
+    border: 1px solid rgba(255, 255, 255, 0.315);
+    border-radius: 12px;
+}
+/* youtube video */
+
+/* GALLERY END HERE */
+
