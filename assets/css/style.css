@@ -3423,6 +3423,34 @@ transform: translate(calc(-50% - 0.5rem));
 
 
 /* GALLERY START HERE */
+.galllery-fluid{
+    width: 1300px;
+    margin: 0 auto;
+}
+@media only screen and (max-width: 456px) {
+    .galllery-fluid{
+        width: 100%;
+        margin: 0 auto;
+        padding: 0 10px;
+    }
+}
+
+@media only screen and (min-width: 457px) and (max-width: 767px) {
+    .galllery-fluid{
+        width: 100%;
+        margin: 0 auto;
+        padding: 0 30px;
+    }
+}
+@media only screen and (min-width: 768px) and (max-width: 1400px) {
+    .galllery-fluid{
+        width: 100%;
+        margin: 0 auto;
+        padding: 0 50px;
+    }
+}
+
+
 
 /* youtube video */
 .yt-videos{
